@@ -1,0 +1,30 @@
+{
+  "name": "kumbat-locomotive",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "setup:media": "node scripts/setup-local-media.mjs",
+    "trim:hero": "node scripts/trim-hero-videos.mjs",
+    "copy:hero1": "node scripts/copy-hero1.mjs",
+    "copy:hero": "node scripts/copy-hero-local.mjs",
+    "hero:optimize": "node scripts/optimize-hero.mjs",
+    "fonts:setup": "node scripts/setup-fonts.mjs"
+  },
+  "dependencies": {
+    "gsap": "^3.12.5",
+    "lenis": "^1.1.14",
+    "next": "^15.3.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "typescript": "^5.7.0"
+  }
+}

@@ -1,0 +1,3 @@
+HATA: ffmpeg bulunamadi.
+Kur:  winget install Gyan.FFmpeg
+Kurduktan sonra TERMINALI KAPAT-AC ve tekrar dene.
