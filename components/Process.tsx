@@ -60,7 +60,7 @@ export default function Process({ bg }: { bg?: string }) {
           }
         );
         gsap.fromTo(
-          ".testimonial",
+          ".testimonials",
           { opacity: 0, scale: 0.85, y: 80, transformPerspective: 900, rotationX: 20 },
           {
             opacity: 1,
@@ -68,14 +68,14 @@ export default function Process({ bg }: { bg?: string }) {
             y: 0,
             rotationX: 0,
             ease: "none",
-            scrollTrigger: { trigger: ".testimonial", start: "top 100%", end: "top 60%", scrub: 0.5 },
+            scrollTrigger: { trigger: ".testimonials", start: "top 100%", end: "top 60%", scrub: 0.5 },
           }
         );
       });
 
       // Mobil/tablet: hafif fade-up
       mm.add("(max-width: 1024px)", () => {
-        gsap.utils.toArray<HTMLElement>(".prc-item, .testimonial").forEach((node) => {
+        gsap.utils.toArray<HTMLElement>(".prc-item, .testimonials").forEach((node) => {
           gsap.from(node, {
             opacity: 0,
             y: 40,
@@ -122,7 +122,7 @@ export default function Process({ bg }: { bg?: string }) {
           font-size: clamp(1.8rem, 3.2vw, 3rem); text-transform: uppercase;
         }
         .prc-item p { color: var(--text-dim); line-height: 1.8; font-weight: 500; font-size: 1.3rem; }
-        .testimonial { max-width: 900px; margin-top: 12vh; will-change: transform, opacity; }
+        .testimonials { max-width: 900px; margin-top: 12vh; display: flex; flex-direction: column; gap: 6vh; will-change: transform, opacity; }
         .testimonial p {
           font-size: clamp(1.6rem, 3.2vw, 2.7rem); font-weight: 400;
           line-height: 1.55; color: var(--text-dim); font-style: italic;
@@ -161,12 +161,16 @@ export default function Process({ bg }: { bg?: string }) {
               </div>
             ))}
           </div>
-          <blockquote className="testimonial">
-            <p>{d.process.quote}</p>
-            <footer>
-              <strong>{d.process.quoteBy}</strong> — {d.process.quoteRole}
-            </footer>
-          </blockquote>
+          <div className="testimonials">
+            {d.process.quotes.map((q, i) => (
+              <blockquote className="testimonial" key={i}>
+                <p>"{q.text}"</p>
+                <footer>
+                  <strong>{q.quoteBy}</strong> — {q.quoteRole}
+                </footer>
+              </blockquote>
+            ))}
+          </div>
         </div>
       </section>
     </>
