@@ -1,4 +1,3 @@
-
 export const ES = {
   nav: {
     work: "Proyectos",
@@ -232,26 +231,27 @@ export const ES = {
         desc: "Medimos resultados y optimizamos con pruebas A/B. Soporte técnico y mantenimiento 24/7.",
       },
     ],
- quotes: [
-  {
-    text:
-      "Llevamos más de 10 años sirviendo en la Plaza Ulus, pero realmente necesitábamos conocer a Kumbat Agencia para existir en el mundo digital. Gracias a su sitio optimizado para SEO, empezamos a posicionarnos en la primera página para búsquedas como 'Ankara simit', 'desayuno Ulus' y 'serpme kahvaltı Ankara'. En solo 2 meses, nuestros pedidos por WhatsApp aumentaron un 40%. Las imágenes del menú, los tiempos de carga rápidos y la adaptación móvil realmente marcan la diferencia. Ahora los clientes vienen diciendo 'los encontramos en línea'. Kumbat Agencia no es solo un diseñador web — es un socio digital que hace crecer tu negocio.",
-    quoteBy: "Can Muhammed Ş.",
-    quoteRole: "Propietario, Ulus Simitçi Dünyası",
+    quotes: [
+      {
+        text:
+          "Llevamos más de 10 años sirviendo en la Plaza Ulus, pero realmente necesitábamos conocer a Kumbat Agencia para existir en el mundo digital. Gracias a su sitio optimizado para SEO, empezamos a posicionarnos en la primera página para búsquedas como 'Ankara simit', 'desayuno Ulus' y 'serpme kahvaltı Ankara'. En solo 2 meses, nuestros pedidos por WhatsApp aumentaron un 40%. Las imágenes del menú, los tiempos de carga rápidos y la adaptación móvil realmente marcan la diferencia. Ahora los clientes vienen diciendo 'los encontramos en línea'. Kumbat Agencia no es solo un diseñador web — es un socio digital que hace crecer tu negocio.",
+        quoteBy: "Can Muhammed Ş.",
+        quoteRole: "Propietario, Ulus Simitçi Dünyası",
+      },
+      {
+        text:
+          "Confiamos en Kumbat Agencia para la imagen digital de nuestro recién inaugurado Biberzade Çiğköfte & Jusst Waffle en Gölbaşı. Queríamos un sitio que reflejara mejor nuestro concepto de sushi çiğköfte, resaltando nuestro ambiente nocturno y nuestro rincón oriental. Especialmente con la integración del menú digital y las imágenes que redirigen a Instagram, llegamos mucho más rápido al público joven. Nos posicionamos en primer lugar para búsquedas como 'çiğköfte Gölbaşı' y 'waffle nocturno'. La velocidad del sitio y la experiencia móvil son tan buenas que los clientes disfrutan explorando el menú. Nuestra calificación de 5.0 está respaldada por esta calidad digital.",
+        quoteBy: "Mustafa K.",
+        quoteRole: "Propietario, Biberzade Çiğköfte & Jusst Waffle",
+      },
+      {
+        text:
+          "Llevamos más de 6 años brindando servicio técnico y venta de teléfonos en la zona de Teknokent. Con el sitio compatible con SEO que construimos junto a Kumbat Agencia, nos posicionamos entre los 3 primeros para búsquedas como 'reparación de teléfonos Ankara', 'cambio de pantalla Teknokent' y 'Western Union Ankara'. Hemos creado un escaparate digital confiable que refleja nuestros servicios profesionales. La referencia de más de 500 dispositivos reparados ahora también es visible en línea. Los clientes llegan con confianza diciendo 'su sitio es muy profesional'. Como distribuidor autorizado de Türk Telekom y agente de Western Union, esta calidad digital ha llevado nuestro negocio al siguiente nivel.",
+        quoteBy: "Elif Tekno Market",
+        quoteRole: "Fundadora y Experta en Servicio Técnico, Elif Tekno Market",
+      },
+    ],
   },
-  {
-    text:
-      "Confiamos en Kumbat Agencia para la imagen digital de nuestro recién inaugurado Biberzade Çiğköfte & Jusst Waffle en Gölbaşı. Queríamos un sitio que reflejara mejor nuestro concepto de sushi çiğköfte, resaltando nuestro ambiente nocturno y nuestro rincón oriental. Especialmente con la integración del menú digital y las imágenes que redirigen a Instagram, llegamos mucho más rápido al público joven. Nos posicionamos en primer lugar para búsquedas como 'çiğköfte Gölbaşı' y 'waffle nocturno'. La velocidad del sitio y la experiencia móvil son tan buenas que los clientes disfrutan explorando el menú. Nuestra calificación de 5.0 está respaldada por esta calidad digital.",
-    quoteBy: "Mustafa K.",
-    quoteRole: "Propietario, Biberzade Çiğköfte & Jusst Waffle",
-  },
-  {
-    text:
-      "Llevamos más de 6 años brindando servicio técnico y venta de teléfonos en la zona de Teknokent. Con el sitio compatible con SEO que construimos junto a Kumbat Agencia, nos posicionamos entre los 3 primeros para búsquedas como 'reparación de teléfonos Ankara', 'cambio de pantalla Teknokent' y 'Western Union Ankara'. Hemos creado un escaparate digital confiable que refleja nuestros servicios profesionales. La referencia de más de 500 dispositivos reparados ahora también es visible en línea. Los clientes llegan con confianza diciendo 'su sitio es muy profesional'. Como distribuidor autorizado de Türk Telekom y agente de Western Union, esta calidad digital ha llevado nuestro negocio al siguiente nivel.",
-    quoteBy: "Elif Tekno Market",
-    quoteRole: "Fundadora y Experta en Servicio Técnico, Elif Tekno Market",
-  },
-],
   contact: {
     label: "Contacto",
     t1: "Empecemos",
