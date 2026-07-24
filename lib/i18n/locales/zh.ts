@@ -232,11 +232,26 @@ export const ZH = {
         desc: "我们衡量结果并通过 A/B 测试优化。提供 7×24 技术支持与维护。",
       },
     ],
-    quote:
-      "「Kumbat 机构不仅是技术伙伴——更是推动我们业务增长的战略盟友。」",
-    quoteBy: "Ahmet Yılmaz",
-    quoteRole: "CEO，TechNova",
+  quotes: [
+  {
+    text:
+      "我们在乌卢斯广场经营已超过10年，但我们真的需要认识Kumbat机构才能在数字世界中立足。得益于他们注重SEO优化的网站，我们在'安卡拉simit'、'乌卢斯早餐'、'serpme kahvaltı安卡拉'等搜索中开始出现在首页。仅仅2个月内，我们的WhatsApp订单增长了40%。菜单页面的视觉效果、快速的加载时间和移动端适配确实带来了显著差异。现在顾客都说'我们是在网上找到你们的'。Kumbat机构不仅仅是网页设计师——更是助力您业务增长的数字合作伙伴。",
+    quoteBy: "詹·穆罕默德·Ş.",
+    quoteRole: "企业主，Ulus Simitçi Dünyası",
   },
+  {
+    text:
+      "我们将新开业的Biberzade Çiğköfte & Jusst Waffle（位于格尔巴什）的数字形象托付给了Kumbat机构。我们希望网站能最好地展现我们的寿司Çiğköfte概念，突出夜间氛围和东方角落特色。特别是通过数字菜单集成和引导至Instagram的视觉设计，我们更快地触达了年轻客群。在'格尔巴什Çiğköfte'和'深夜华夫饼'等搜索中我们都名列前茅。网站速度和移动端体验非常出色，顾客都乐于浏览菜单。我们5.0的评分正是这种数字品质的体现。",
+    quoteBy: "穆斯塔法·K.",
+    quoteRole: "企业主，Biberzade Çiğköfte & Jusst Waffle",
+  },
+  {
+    text:
+      "我们在Teknokent地区提供技术服务和手机销售已超过6年。借助我们与Kumbat机构共同打造的符合SEO标准的网站，我们在'安卡拉手机维修'、'Teknokent换屏'、'安卡拉西联汇款'等搜索中稳居前三名。我们打造了一个值得信赖的数字展示窗口，充分展现我们的专业服务。超过500台设备维修的记录如今也能在线查看。顾客带着信任前来，纷纷表示'你们的网站非常专业'。作为Türk Telekom授权经销商及西联汇款代理商，这种数字品质将我们的业务提升到了新的水平。",
+    quoteBy: "Elif Tekno Market",
+    quoteRole: "创始人兼技术服务专家，Elif Tekno Market",
+  },
+],
   contact: {
     label: "联系我们",
     t1: "开启",
