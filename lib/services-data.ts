@@ -602,11 +602,11 @@ export const services: Service[] = [
   },
   {
     slug: "isletmeye-ozel-muzik",
-    hero: "https://images.unsplash.com/photo-1511379934373-07a1bf625cc6?w=1800&q=90",
+    hero: "https://images.pexels.com/photos/164745/pexels-photo-164745.jpeg?auto=compress&cs=tinysrgb&w=1800",
     gallery: [
-      "https://images.unsplash.com/photo-1598483396730-6172c5fa29aa?w=1200&q=85",
-      "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=1200&q=85",
-      "https://images.unsplash.com/photo-1516280440614-37939bbacd81?w=1200&q=85",
+      "https://images.pexels.com/photos/257904/pexels-photo-257904.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "https://images.pexels.com/photos/1389429/pexels-photo-1389429.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "https://images.pexels.com/photos/3783471/pexels-photo-3783471.jpeg?auto=compress&cs=tinysrgb&w=1200",
     ],
     tags: ["Jingle", "Ambient", "Marka Sesi", "Lisanslı"],
     tr: {
