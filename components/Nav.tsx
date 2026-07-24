@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import Image from "next/image";
 import { useI18n, languages } from "@/lib/i18n";
 
 export default function Nav() {
@@ -52,6 +53,7 @@ export default function Nav() {
         }
         .site-nav.visible { opacity: 1; transform: translateY(0); }
         .site-nav .logo {
+          display: flex; align-items: center; gap: 0.7rem;
           font-family: var(--font-display); font-weight: 700;
           font-size: clamp(1.7rem, 3.2vw, 3.4rem);
           text-decoration: none; letter-spacing: 0.02em;
@@ -71,6 +73,13 @@ export default function Nav() {
             0 0 60px rgba(79, 201, 255, 0.7),
             0 0 120px rgba(79, 201, 255, 0.45);
         }
+        .site-nav .logo-mark {
+          width: clamp(2rem, 3vw, 3.2rem);
+          height: clamp(2rem, 3vw, 3.2rem);
+          flex-shrink: 0;
+          filter: drop-shadow(0 0 10px rgba(79, 201, 255, 0.6));
+        }
+        .site-nav .logo-text { line-height: 1; }
         .nav-clock {
           font-family: var(--font-display); font-weight: 700;
           font-size: 1.15rem; letter-spacing: 0.14em; text-transform: uppercase;
@@ -222,7 +231,17 @@ export default function Nav() {
       `}</style>
       <nav className={`site-nav ${visible ? "visible" : ""}`}>
         <a href="/" className="logo">
-          Kumbat Ajans<span style={{ opacity: 0.6 }}>®</span>
+          <Image
+            src="/media/logo.webp"
+            alt="Kumbat Ajans logo"
+            width={64}
+            height={64}
+            className="logo-mark"
+            priority
+          />
+          <span className="logo-text">
+            Kumbat Ajans<span style={{ opacity: 0.6 }}>®</span>
+          </span>
         </a>
         <div className="nav-clock">Ankara — {time}</div>
         <div
