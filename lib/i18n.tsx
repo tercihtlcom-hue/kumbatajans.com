@@ -605,10 +605,21 @@ const EN: Dict = {
         desc: "We measure results and optimize with A/B tests. 24/7 technical support and maintenance.",
       },
     ],
-    quote:
-      "“Kumbat Agency isn't just a tech partner — they're a strategic ally that helped us grow our business.”",
-    quoteBy: "Ahmet Yılmaz",
-    quoteRole: "CEO, TechNova",
+   quotes: [
+  {
+    text: "Ulus Meydanı'nda 10 yılı aşkın süredir hizmet veriyoruz ama dijital dünyada gerçekten var olmak için Kumbat Ajans'la tanışmamız gerekti. SEO odaklı site yapımı sayesinde 'Ankara simit', 'Ulus kahvaltı', 'serpme kahvaltı Ankara' gibi aramalarda ilk sayfada çıkmaya başladık. Sadece 2 ay içinde WhatsApp siparişlerimiz %40 arttı. Menü sayfamızın görselleri, hızlı yükleme süresi ve mobil uyumluluk gerçekten fark yaratıyor. Artık müşterilerimiz 'internetten bulduk' diyerek geliyor. Kumbat Ajans sadece bir web tasarımcı değil, işletmenizi büyüten bir dijital ortak.",
+    quoteBy: "Can Muhammed Ş.",
+    quoteRole: "İşletme Sahibi, Ulus Simitçi Dünyası",
+  },
+  {
+    text: "Gölbaşı'nda yeni açtığımız Biberzade Çiğköfte & Jusst Waffle için dijital yüzümüzü Kumbat Ajans'a emanet ettik. Sushi çiğköfte konseptimizi en iyi şekilde yansıtan, gece atmosferimizi ve şark köşemizi öne çıkaran bir site istedik. Özellikle dijital menü entegrasyonu ve Instagram'a yönlendiren görseller sayesinde genç müşteri kitlesine ulaşmamız çok hızlandı. 'Gölbaşı çiğköfte', 'gece açık waffle' aramalarında üst sıralarda yer alıyoruz. Site hızı ve mobil deneyim o kadar iyi ki müşterilerimiz menüye bakarken bile keyif alıyor. 5.0 puanımızın arkasında bu dijital kalite de var.",
+    quoteBy: "Mustafa K.",
+    quoteRole: "İşletme Sahibi, Biberzade Çiğköfte & Jusst Waffle",
+  },
+  {
+    text: "Teknokent bölgesinde 6 yılı aşkın süredir teknik servis ve telefon satışı yapıyoruz. Kumbat Ajans'la yaptığımız SEO uyumlu site sayesinde 'Ankara telefon tamiri', 'Teknokent ekran değişimi', 'Western Union Ankara' gibi aramalarda ilk 3'te yer alıyoruz. Profesyonel hizmetlerimizi yansıtan, güven veren bir dijital vitrin oluşturduk. 500+ tamir ettiğimiz cihazın referansı artık online'da da görünüyor. Müşterilerimiz 'siteniz çok profesyonel' diyerek güvenle geliyor. Türk Telekom yetkili bayi ve Western Union acentesi olarak bu dijital kalite işimizi bir üst seviyeye taşıdı.",
+    quoteBy: "Elif Tekno Market",
+    quoteRole: "Kurucu & Teknik Servis Uzmanı, Elif Tekno Market",
   },
   contact: {
     label: "Contact",
