@@ -133,25 +133,25 @@ export default function Footer() {
               <h3>{d.footer.colSocial}</h3>
               <a
                 href="https://instagram.com/codetech_kumbat"
-  target="_blank"
-  rel="noopener noreferrer"
->
-  Instagram — @codetech_kumbat
-</a>
-
-  href="https://www.youtube.com/@CODETECH_KUMBAT"
-  target="_blank"
-  rel="noopener noreferrer"
->
-  YouTube - @CODETECH_KUMBAT
-</a>
-
-  href="https://www.linkedin.com/in/arif-yaz%C4%B1c%C4%B1-062a85273/?locale=tr"
-  target="_blank"
-  rel="noopener noreferrer"
->
-  LinkedIn - Arif Yazıcı
-</a>
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Instagram — @codetech_kumbat
+              </a>
+              <a
+                href="https://www.youtube.com/@CODETECH_KUMBAT"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                YouTube - @CODETECH_KUMBAT
+              </a>
+              <a
+                href="https://www.linkedin.com/in/arif-yaz%C4%B1c%C4%B1-062a85273/?locale=tr"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                LinkedIn - Arif Yazıcı
+              </a>
             </div>
           </div>
         </div>
